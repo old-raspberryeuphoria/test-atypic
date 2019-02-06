@@ -1,0 +1,36 @@
+@import 'src/vars';
+
+.root {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 35px;
+  background: url('./img/header_background.jpg');
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 22px;
+
+  width: 84px;
+  height: 30px;
+  background: $blue;
+  border-radius: 0 6px 6px 0;
+
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.chevron {
+  transform: translateY(-2px);
+
+  svg {
+    fill: currentColor;
+  }
+}

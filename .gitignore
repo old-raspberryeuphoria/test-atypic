@@ -1,0 +1,7 @@
+# Assets, saves
+/__assets/*
+/__sav/*
+
+# Modules JS
+/__modules/*
+/node_modules/*

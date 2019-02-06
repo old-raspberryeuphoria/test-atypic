@@ -1,0 +1,85 @@
+@import 'src/vars';
+
+.root {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+
+  tr {
+    &:nth-of-type(even) {
+      background: $row-odd;
+    }
+
+    &:nth-of-type(odd) {
+      background: $row-even;
+    }  
+
+    &:first-of-type {
+      background: #fff;
+    }  
+
+    &:not(:first-of-type):hover {      
+      background: $row-hover;
+    }
+  }
+
+  th, td {
+    height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+  }
+
+  th {
+    color: $blue;
+    font-size: 13px;
+    text-align: left;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  td {
+    font-size: 15px;
+  }
+}
+
+.triangleSvg {
+  display: inline-block;
+  margin-left: 5px;
+
+  svg {    
+    fill: $grey;
+  }
+}
+
+.isActive {
+  svg {
+    fill: $blue;
+  }
+}
+
+.asc {
+  svg {
+    transform: rotate(180deg);
+  }
+}
+
+.plusSvg {
+  transform: translateY(3px);
+
+  &:hover {
+    cursor: pointer;
+
+    path {
+      fill: $black;
+    }
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

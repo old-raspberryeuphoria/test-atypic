@@ -1,4 +1,4 @@
-# I wrote this test when I worked at Atypic.
+# I wrote this test when I worked at Atypic. This repository is my solution.
 
 Le but de ce test est de faire le développement et l'intégration d'une petite app qui alterne entre un tableau d'utilisateurs et une fiche profil, en utilisant la maquette et les images fournies. 
 
@@ -16,14 +16,14 @@ Vous êtes libre d'employer les technologies (librairie, framework, préprocesse
 
 Si vous avez le temps, n'hésitez pas à ajouter des fonctionnalités ou à faire du responsive !
 
-POLICE :
-Roboto https://fonts.google.com/specimen/Roboto
+POLICE :  
+Roboto https://fonts.google.com/specimen/Roboto  
 
-COULEURS :
-#e4e8e6 pour les lignes du tableau impaires
-#f8f6f4 pour les lignes du tableau paires
-#435667 pour le titre de la home, pour les en-têtes du tableau, pour l'arrière-plan du bouton "Retour", et pour le nom de l'utilisateur dans la fiche
-#1e1f1f pour le reste des textes
+COULEURS :  
+#e4e8e6 pour les lignes du tableau impaires  
+#f8f6f4 pour les lignes du tableau paires  
+#435667 pour le titre de la home, pour les en-têtes du tableau, pour l'arrière-plan du bouton "Retour", et pour le nom de l'utilisateur dans la fiche  
+#1e1f1f pour le reste des textes  
 
 N'hésitez pas à utiliser le .psd si vous avez photoshop. Si vous ne l'avez pas, faites au mieux pour respecter la mise en page : on veut surtout un layout créé proprement, pas du pixel perfect.
 

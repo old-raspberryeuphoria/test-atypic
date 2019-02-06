@@ -1,3 +1,5 @@
+# I wrote this test when I worked at Atypic.
+
 Le but de ce test est de faire le développement et l'intégration d'une petite app qui alterne entre un tableau d'utilisateurs et une fiche profil, en utilisant la maquette et les images fournies. 
 
 Le tableau est divisé en plusieurs colonnes : Nom, Email, Âge et Ville. On doit pouvoir trier le tableau par n'importe quelle colonne, dans les deux sens.
